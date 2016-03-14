@@ -1,0 +1,20 @@
+{
+  "friendsList": [
+    {
+      "firstName": "Joshua",
+      "lastName": "Guzman"
+    },
+    {
+      "firstName": "Dave",
+      "lastName": "Idell"
+    },
+    {
+      "firstName": "Gaspare",
+      "lastName": "Tumminello"
+    },
+    {
+      "firstName": "Anthony",
+      "lastName": "Jones"
+    }
+  ]
+}
