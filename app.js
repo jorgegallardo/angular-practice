@@ -9,10 +9,7 @@ angular.module('FirstSecond', ['ngRoute', 'FirstControllerModule', 'SecondContro
 		templateUrl: 'templates/pages/second.html',
 		controller: 'SecondController'
 	})
-	.when('/', {
-		templateUrl: 'templates/pages/first.html'
-	})
 	.otherwise({
-		redirectTo: '/'
+		redirectTo: '/first'
 	});
 }]);
