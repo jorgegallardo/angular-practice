@@ -1,4 +1,4 @@
-angular.module('FirstSecond', ['ngRoute', 'FirstControllerModule', 'SecondControllerModule'])
+angular.module('FirstSecond', ['ngRoute', 'FirstControllerModule', 'SecondControllerModule', 'ServiceModule'])
 .config(['$routeProvider', function($routeProvider) {
 	$routeProvider
 	.when('/first', {
