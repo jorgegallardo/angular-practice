@@ -14,7 +14,8 @@ angular.module('FirstControllerModule', [])
 
 	// success and error have been deprecated https://docs.angularjs.org/api/ng/service/$http
 
-	$http.get("friends.json")
+	// The $http service is a function which takes a single argument — a configuration object — that is used to generate an HTTP request and returns a promise.
+	$http({ method: 'GET', url: 'friends.json'})
 	.then(function(response) {
 	  $scope.friends = response.data.friendsList;
 	  console.log(response);
