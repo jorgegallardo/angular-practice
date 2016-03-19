@@ -9,8 +9,8 @@ angular.module('SecondControllerModule', [])
     restrict: 'E',
     templateUrl: 'templates/directives/friend.html',
     controller: function($scope) {
-      $scope.header = 'Jorge Gallardo';
-      $scope.description = 'is a really cool dude';
+      $scope.name = 'Jorge Gallardo';
+      $scope.comment = 'is a really cool dude';
     }
   };
 }]);
