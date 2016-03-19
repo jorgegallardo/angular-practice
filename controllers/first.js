@@ -1,5 +1,5 @@
 angular.module('FirstControllerModule', [])
-.controller('FirstController', ['$scope', '$http', 'GetFriends', function($scope, $http, GetFriends) {
+.controller('FirstController', ['$scope', 'GetFriends', function($scope, GetFriends) {
 	$scope.greeting = {};
 	$scope.greeting.text = 'Hello One Time';
 	$scope.saveFriend = function(data) {

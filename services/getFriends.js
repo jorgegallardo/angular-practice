@@ -4,5 +4,5 @@ angular.module('ServiceModule', [])
 		all: function() {
 			return $http({ method: 'GET', url: 'friends.json'});
 		}
-	}
+	};
 }]);
