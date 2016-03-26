@@ -1,7 +1,8 @@
 <div class="row second">
   <p>This is the second paragraph: {{ greeting.text }}</p>
 
-  <img src="{{gravatarUrl(testing)}}">
+  <p>{{ gravatarUrl('sugar@sugar.com') }} is the hashed image source</p>
+  <img ng-src="{{ gravatarUrl('sugar@sugar.com') }}">
 
   <friend></friend>
 

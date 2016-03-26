@@ -13,7 +13,8 @@ angular.module('SecondControllerModule', [])
     restrict: 'E',
     templateUrl: 'templates/directives/friend.html',
     scope: {
-      gravatarUrl: '='
+      gravatarUrl: '=',
+      image: '=' // 2 way binding
     },
     controller: function($scope) {
       $scope.name = 'Jorge Gallardo';
