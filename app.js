@@ -1,4 +1,8 @@
-angular.module('FirstSecond', ['ngRoute', 'FirstControllerModule', 'SecondControllerModule', 'ServiceModule'])
+// this is the module object that can config routes, create custom filters, directives, get data from different sources and even create controllers
+// think of a module as a container that contains the different parts
+// make sure module name, is written next to ng-app
+
+angular.module('FirstSecond', ['ngRoute', 'FirstControllerModule', 'SecondControllerModule', 'ServiceModule', 'GravatarModule'])
 .config(['$routeProvider', function($routeProvider) {
 	$routeProvider
 	.when('/first', {
