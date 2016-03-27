@@ -16,4 +16,7 @@ angular.module('FirstSecond', ['ngRoute', 'FirstControllerModule', 'SecondContro
 	.otherwise({
 		redirectTo: '/first'
 	});
+}])
+.config(['GravatarProvider', function(GravatarProvider) {
+	GravatarProvider.setSize(100);
 }]);
